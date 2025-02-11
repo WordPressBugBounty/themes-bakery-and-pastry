@@ -127,12 +127,51 @@ function bakery_and_pastry_register_block_pattern_categories()
 add_action('init', 'bakery_and_pastry_register_block_pattern_categories');
 
 
+
+
+
+
+
+
 // Initialize information content
 require_once trailingslashit(get_template_directory()) . 'inc/vendor/autoload.php';
 
 use SuperbThemesThemeInformationContent\ThemeEntryPoint;
 
 ThemeEntryPoint::init([
-	'theme_url' => 'https://superbthemes.com/bakery-and-pastry/',
-	'demo_url' => 'https://superbthemes.com/demo/bakery-and-pastry/'
+    'type' => 'block', // block / classic
+    'theme_url' => 'https://superbthemes.com/bakery-and-pastry/',
+    'demo_url' => 'https://superbthemes.com/demo/bakery-and-pastry/',
+    'features' => array(
+    	array(
+    		'title' => __("Theme Designer", "bakery-and-pastry"),
+    		'icon' => "lego-duotone.webp",
+    		'description' => __("Choose from over 300 designs for footers, headers, landing pages & all other theme parts.", "bakery-and-pastry")
+    	),
+    	   	array(
+    		'title' => __("Editor Enhancements", "bakery-and-pastry"),
+    		'icon' => "1-1.png",
+    		'description' => __("Enhanced editor experience, grid systems, improved block control and much more.", "bakery-and-pastry")
+    	),
+    	array(
+    		'title' => __("Custom CSS", "bakery-and-pastry"),
+    		'icon' => "2-1.png",
+    		'description' => __("Add custom CSS with syntax highlight, custom display settings, and minified output.", "bakery-and-pastry")
+    	),
+    	array(
+    		'title' => __("Animations", "bakery-and-pastry"),
+    		'icon' => "wave-triangle-duotone.webp",
+    		'description' => __("Animate any element on your website with one click. Choose from over 50+ animations.", "bakery-and-pastry")
+    	),
+    	array(
+    		'title' => __("WooCommerce Integration", "bakery-and-pastry"),
+    		'icon' => "shopping-cart-duotone.webp",
+    		'description' => __("Choose from over 100 unique WooCommerce designs for your e-commerce store.", "bakery-and-pastry")
+    	),
+    	array(
+    		'title' => __("Responsive Controls", "bakery-and-pastry"),
+    		'icon' => "arrows-out-line-horizontal-duotone.webp",
+    		'description' => __("Make any theme mobile-friendly with SuperbThemes responsive controls.", "bakery-and-pastry")
+    	)
+    )
 ]);
