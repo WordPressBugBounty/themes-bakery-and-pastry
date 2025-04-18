@@ -137,7 +137,7 @@ add_action('init', 'bakery_and_pastry_register_block_pattern_categories');
 require_once trailingslashit(get_template_directory()) . 'inc/vendor/autoload.php';
 
 use SuperbThemesThemeInformationContent\ThemeEntryPoint;
-
+add_action("init", function () {
 ThemeEntryPoint::init([
     'type' => 'block', // block / classic
     'theme_url' => 'https://superbthemes.com/bakery-and-pastry/',
@@ -175,3 +175,4 @@ ThemeEntryPoint::init([
     	)
     )
 ]);
+});
