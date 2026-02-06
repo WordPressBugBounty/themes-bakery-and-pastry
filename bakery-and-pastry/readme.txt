@@ -2,9 +2,9 @@
 
 Contributors: SuperbAddons
 Requires at least: 4.0  
-Tested up to: 6.6
-Stable tag: 0.2
-Version: 0.2
+Tested up to: 6.9
+Stable tag: 1.3
+Version: 1.3
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: theme-options, threaded-comments, translation-ready, sticky-post, footer-widgets, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-image-header, featured-images, flexible-header, right-sidebar, one-column, two-columns, three-columns, buddypress, full-width-template, e-commerce, blog, news
@@ -17,7 +17,7 @@ Bakery and Pastry is the ultimate free WordPress theme for bakers, restaurants, 
 
 
 ## Copyright
-Bakery and Pastry WordPress Theme, Copyright 2024 SuperbAddons
+Bakery and Pastry WordPress Theme, Copyright 2026 SuperbAddons
 Bakery and Pastry is distributed under the terms of the GNU GPL
 
 Bakery and Pastry bundles the following third-party resources:
